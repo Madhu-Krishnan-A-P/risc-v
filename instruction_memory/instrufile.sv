@@ -50,7 +50,7 @@ module instru_file(
         end
         
         else begin
-            read_data <= memory[A[31:2]]; // Read data from memory (word-aligned address)
+            read_data <= memory[A[31:0]]; // Read data from memory (word-aligned address)
         end
     end
 
